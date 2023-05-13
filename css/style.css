@@ -1,0 +1,502 @@
+:root{
+    --sc-color : #048853
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f0fff2;
+}
+
+/* Navbar */
+
+/* navbar color */
+.nav-color {
+    background-color: #00985B;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent{
+    transition: all ease-in-out 0.3s;
+}
+
+.navbar{
+    z-index: 3;
+}
+
+*{
+    z-index: 2;
+}
+
+.accsent-img{
+     z-index: 1;
+}
+
+.img-hero{
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.button-primary{
+    width: 133px;
+    height: 40px;
+    border: none;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.button-secondary{
+    width: 133px;
+    height: 40px;
+    border: none;
+    font-weight: 700;
+    color: var(--sc-color);
+    background-color: #fff;
+}
+
+/* Hero section */
+
+#hero{
+    background: linear-gradient(160deg, var(--sc-color), #000);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero{
+    height: 100%;
+}
+
+.hero-tagline h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+}
+
+.hero-tagline p{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 85%;
+}
+
+.button-lg-primary{
+    width: 237px;
+    height: 70px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--sc-color);
+    background-color: #FFFFFF;
+}
+
+/* Layanan section */
+
+#layanan{
+    padding: 100px 0;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 200;
+    color: var(--sc-color);
+}
+
+.sub-title{
+    font-size: 18px;
+    color: #000;
+}
+
+.card-layanan{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .3s ease-in;
+}
+
+.circle-icon{
+    width: 70px;
+    height: 70px;
+    background-color: var(--sc-color);
+    border-radius: 50%;
+
+    transition: all .1s ease-in;
+}
+
+.card-layanan h3{
+    color: var(--sc-color);
+    font-size: 24px;
+
+    transition: all .2s ease-in;
+}
+
+.card-layanan p{
+    color: #000;
+    font-size: 14px;
+
+    transition: all .3s ease-in;
+}
+
+/* Hover */
+.card-layanan:hover {
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    padding: 40px;
+    background: linear-gradient(160deg, var(--sc-color), #000);
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover .circle-icon{
+    background-color: #fff;
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover h3{
+    color: #fff;
+    font-size: 24px;
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover p{
+    color: #fff;
+    font-size: 14px;
+    transition: all .2s ease-in;
+}
+
+/* search section */
+
+#search{
+    background-image: url(../assets/img/search-bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#search h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+#search p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.input-cari{
+    height: 88px;
+}
+
+.input-cari .button-secondary {
+    width: 200px;
+    height: 88px;
+    background-color: rgba(225, 225, 225, 0.8);
+    color: var(--sc-color);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0 0 0 10px;
+}
+
+.input-cari .button-primary{
+    height: 88px;
+    font-size: 36px;
+    background-color: var(--sc-color);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 0 10px 0 10px;
+}
+
+.nav-tabs{
+    border: none;
+}
+
+.nav-tabs .nav-link{
+    color: #000;
+    border: none;
+}
+
+.nav-tabs .nav-link{
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 0 0 0 0;
+}
+
+.nav-tabs .nav-link.active{
+    background-color: rgba(225, 225, 225, 0.8);
+    color: var(--sc-color);
+    border-radius: 0 9px 0 0;
+    font-weight: 500;
+}
+
+/* Rekomendasi section */
+
+.card{
+    height: 460px;
+    width: 95%;
+    border: none;
+}
+
+.card-body h4{
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: .8rem;
+}
+
+.card-body p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card:hover{
+    background: linear-gradient(160deg , var(--sc-color) , #007245, #007245, #005432, #000);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+    transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body h4{
+    color: #fff;
+    transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body p{
+    color: #fff;
+    transition: all ease-in-out .3s;
+}
+
+.card-fasilitas{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    background-color: #fff;
+}
+
+.card-fasilitas span{
+    font-weight: 500;
+    margin-top: 18px;
+    color: #000;
+}
+
+.card-fasilitas p{
+    font-size: 12px;
+    color: #000;
+}
+
+/* Fitur section */
+
+.button-fitur{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: var(--sc-color);
+    border: none;
+    height: 63px;
+    width: 238px;
+}
+
+#fitur h2{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.card-fitur h5{
+    font-weight: 600;
+    font-size: 36px;
+    color: #fff;
+}
+
+.card-fitur span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.card-fitur h6{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.card-fitur button{
+    background-color: var(--sc-color);
+    border: none;
+    height: 45px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.card-fitur .overlay{
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-fitur .overlay:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.button-arrow-left{
+    border: none;
+    border-radius: 50%;
+    height: 61px;
+    width: 61px;
+    background-color: var(--sc-color);
+    padding: 0;
+}
+
+.button-arrow-right{
+    border: none;
+    border-radius: 50%;
+    height: 61px;
+    width: 61px;
+    background-color: var(--sc-color);
+    padding: 0;
+}
+
+/* Kontak */
+
+#contact {
+    background-image: url(../assets/img/bg\ contact.png);
+    margin-top: 158px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact .overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#contact .container{
+    padding: 148px 0 148px 0;
+}
+
+#contact h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #FFFFFF;
+    width: 441px;
+}
+
+#contact h6{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 19px 0 14px 0;
+    color: #FFFFFF;
+}
+
+.kontak a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-left: 18px;
+    text-decoration: none;
+    width: 332px;
+    display: inline-block;
+}
+
+.linkrumahimpian{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.card-contact{
+    width: 100%;
+    height: 445px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 52px 48px;
+}
+
+.card-contact h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+    color: #00985B;
+    margin-bottom: 21px;
+}
+
+.form-control{
+    background: #C4C4C4;
+    border-radius: 0;
+}
+
+.form-floating label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #717171;
+}
+
+.button-kontak{
+    width: 100%;
+    height: 75px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #00985B;
+    border: none;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 270px;
+    background: #000000;
+}
+
+.copyright{
+    bottom: 1%;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+footer a{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}

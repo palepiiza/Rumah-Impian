@@ -1,0 +1,50 @@
+<div class="col-12 d-flex justify-content-start">
+                        <div class="card-fitur me-3 position-relative">
+                            <img src="assets/img/fitur rumah 1.png" alt="">
+
+                            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                                <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                                    <h5>Kamar Tudur</h5>
+                                    <span>Rumah minimalist Type-A2</span>
+                                    <h6>IDR.200jt</h6>
+                                    <button>Lihat Rumah</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-fitur me-3 position-relative">
+                            <img src="assets/img/fitur rumah 2.png" alt="">
+
+                            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                                <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                                    <h5>Kamar Tudur</h5>
+                                    <span>Rumah minimalist Type-A2</span>
+                                    <h6>IDR.200jt</h6>
+                                    <button>Lihat Rumah</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-fitur me-3 position-relative">
+                            <img src="assets/img/fitur rumah 3.png" alt="">
+
+                            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                                <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                                    <h5>Kamar Tudur</h5>
+                                    <span>Rumah minimalist Type-A2</span>
+                                    <h6>IDR.200jt</h6>
+                                    <button>Lihat Rumah</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-fitur me-3 position-relative">
+                            <img src="assets/img/fitur rumah 4.png" alt="">
+
+                            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                                <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                                    <h5>Kamar Tudur</h5>
+                                    <span>Rumah minimalist Type-A2</span>
+                                    <h6>IDR.200jt</h6>
+                                    <button>Lihat Rumah</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
